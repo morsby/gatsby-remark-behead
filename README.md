@@ -4,11 +4,25 @@ A plugin for [gatsby-transformer-remark](https://www.gatsbyjs.org/packages/gatsb
 
 Currently only the `depth` option works consistently.
 
+## Usage 
+
+Just add it to list of `gatsby-transformer-remark` plugins:
+
+```
+// In your gatsby-config.js
+plugins: [
+  {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: [`gatsby-remark-behead`],
+    },
+  },
+]
+```
+
 ## Options
 
-- `depth`: Number. Default `1`.
-
-Changes the heading level by the provided number. 
+- `depth`: Number. Default `1`. Changes the heading level by the provided number.
 
 ## Examples
 
