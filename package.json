@@ -1,0 +1,26 @@
+{
+    "name": "gatsby-remark-behead",
+    "version": "0.0.1",
+    "description": "Increase or decrease heading depth",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Morsby",
+    "license": "MIT",
+    "dependencies": {
+        "lodash.isequal": "^4.5.0",
+        "remark-behead": "^2.1.0"
+    },
+    "homepage": "https://github.com/Morsby/gatsby-remark-behead",
+    "bugs": {
+        "url": "https://github.com/Morsby/gatsby-remark-behead/issues"
+    },
+    "keywords": [
+        "gatsby",
+        "gatsby-plugin",
+        "gatsby-transformer-plugin",
+        "markdown",
+        "behead"
+    ]
+}
