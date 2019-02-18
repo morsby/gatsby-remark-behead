@@ -18,7 +18,8 @@ Decrease all headers by one level (e.g. `<h1>` to `<h2>`):
 {
     resolve: "gatsby-remark-behead",
     options: { depth: 1 },
-}```
+}
+```
 
 Increase all headers by one level (e.g. `<h2>` to `<h1>`):
 
@@ -26,4 +27,5 @@ Increase all headers by one level (e.g. `<h2>` to `<h1>`):
 {
     resolve: "gatsby-remark-behead",
     options: { depth: -1 },
-}```
+}
+```
