@@ -2,6 +2,8 @@
 
 A plugin for [gatsby-transformer-remark](https://www.gatsbyjs.org/packages/gatsby-transformer-remark/), wrapping [remark-behead](https://github.com/mrzmmr/remark-behead).
 
+Used to alter markdown header levels when parsed through remark.
+
 Currently only the `depth` option works consistently.
 
 ## Usage 
